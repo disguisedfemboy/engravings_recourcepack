@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "fate will",
+        "model": {
+          "type": "minecraft:model",
+          "model": "renamed:item/necklace_1"
+        }
+      },
+      {
+        "when": "always happen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "renamed:item/necklace_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/knowledge_book"
+    }
+  }
+}
